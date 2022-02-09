@@ -1,0 +1,26 @@
+{
+  "name": "NeyBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.8.0",
+    "@distube/yt-dlp": "^1.0.2",
+    "discord.js": "^13.1.0",
+    "distube": "^3.3.2",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-standard": "^17.0.0-0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.5.1"
+  }
+}
